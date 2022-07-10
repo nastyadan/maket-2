@@ -1,0 +1,374 @@
+body {
+
+    font-family: 'Gilroy', 'Times New Roman', serif;
+    color: #070707;
+
+}
+
+
+
+.aboutme {
+    height: 506px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F6F6F6;
+
+}
+
+.skills {
+    height: 610px;
+    display: grid;
+    grid-template-rows: 40% 1fr;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+
+.skillsimg {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+}
+
+#adobephotoshope {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#adobeillustrator {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#adobeaftereffects {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.figma {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#figma {
+    height: 88.57px;
+    width: 89.21px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+#f1 {
+    grid-area: 1/1/2/2;
+    justify-self: end;
+}
+
+#f2 {
+    grid-area: 1/2/2/3;
+    justify-self: start;
+}
+
+#f3 {
+    justify-self: end;
+}
+
+#f4 {
+    justify-self: start;
+}
+
+#f5 {
+    justify-self: end;
+}
+
+.portfolio {
+    height: 2253px;
+    display: grid;
+    grid-template-rows: 1fr 90%;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.portfoliodiv {
+    height: 670px;
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+/*fonts*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url('assets/fonts/gilroy-bold.eot');
+    src: local('☺'), url('assets/fonts/gilroy-bold.woff') format('woff'), url('assets/fonts/gilroy-bold.ttf') format('truetype'), url('assets/fonts/gilroy-bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('assets/fonts/gilroy-medium.eot');
+    src: local('☺'), url('assets/fonts/gilroy-medium.woff') format('woff'), url('assets/fonts/gilroy-medium.ttf') format('truetype'), url('assets/fonts/gilroy-medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+/*header*/
+.header {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+#nav {
+    height: 87.94px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.nav {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #828282;
+}
+
+.navhome {
+    color: #070707;
+}
+
+
+.line {
+    border: 1px solid #828282;
+    max-width: 100%;
+}
+
+#firstinf {
+    height: 192px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.denis {
+    font-weight: 700;
+    font-size: 47.3392px;
+    line-height: 59px;
+
+}
+
+.shortinf {
+    align-self: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.logo {
+    align-self: center;
+    justify-self: end;
+    width: 25px;
+    height: 100px;
+}
+
+.denisphoto {
+    max-width: 100%;
+}
+
+.containerfordenis {
+    max-width: 100%;
+}
+
+/*заголовки*/
+
+.h2 {
+    align-self: end;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+/*main текст*/
+.text {
+    width: 485.34px;
+    height: 218px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.a {
+    align-self: start;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.83px;
+    color: #070707;
+}
+
+.a:visited {
+    color: #828282;
+}
+
+/*main картинки*/
+.proglogo {
+    width: 89.21px;
+    height: 88.57px;
+}
+
+.progname1 {
+    width: 70.29px;
+    height: 22.27px;
+}
+
+.progname2 {
+    width: 63.26px;
+    height: 27.27px;
+}
+
+.progname3 {
+    width: 79.33px;
+    height: 27.27px;
+}
+
+.progname4 {
+    width: 41.17px;
+    height: 9.74px;
+}
+
+.star {
+    width: 26.07px;
+    height: 26px;
+}
+
+.figma1 {
+    width: 29.12px;
+    height: 29.67px;
+}
+
+.figma2 {
+    width: 29.12px;
+    height: 29.65px;
+}
+
+.portfolioscrin {
+    max-width: 100%;
+}
+
+/* footer*/
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 622px;
+}
+
+#footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 45% 20%;
+    gap: 10px;
+    height: 376px;
+}
+
+.textfooter1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.button {
+    width: 166.46px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #070707;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.28px;
+    color: #ffffff;
+}
+
+.textfooter2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #828282;
+}
+
+.navfooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-self: end;
+}
+
+.social {
+    width: 39.11px;
+    height: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .skillsimg {
+        height: 70em;
+        width: 40vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+    }
+
+    .skills {
+        height: 90em;
+        display: grid;
+        grid-template-rows: 20% 1fr;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+
+    }
+
+    .portfolio {
+        height: 130.8em;
+        display: grid;
+        grid-template-rows: 1fr 90%;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+        background-color: #F6F6F6;
+    }
+
+    .header {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+}
